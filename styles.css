@@ -4,3 +4,27 @@
   border-color: blueviolet;
   border-radius: 1;
 }
+
+.anotherBox {
+  border-style: solid;
+  border-color: red;
+  border-radius: 1;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#status {
+  margin-left: 30px;
+}
+
+.wrongAnswer {
+  color: red;
+}
+
+.rightAnswer {
+  color: green;
+}
