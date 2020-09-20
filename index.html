@@ -23,28 +23,25 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 timer">Timer</div>
-        <div class="col-md-6 score">Score</div>
+        <div class="col-md-6 timer" id="timer">Timer</div>
+        <div class="col-md-6 score" id="score">Score</div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col gameBox">
-          <div>X + y</div>
+          <h1 id="equation"></h1>
         </div>
       </div>
       <div class="row">
         <div class="col guess">
           <form id="check_guess">
             <div class="form-group">
-              <input
-                id="guess"
-                type="textarea"
-                placeholder="add your guess here"
-              />
+              <input id="guess" type="number" />
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </form>
+          <div id="status"></div>
         </div>
       </div>
       <div class="row">
