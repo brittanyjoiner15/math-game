@@ -15,7 +15,13 @@ $(document).ready(function () {
         if (timer === 0) {
           clearInterval(interval);
           interval = undefined;
-          $("#timer").text("time is up");
+          $("#timer").text("Time is up!");
+          $(".guess").addClass("pause");
+          $("#status").removeClass("rightAnswer");
+          $("#status").removeClass("wrongAnswer");
+          $("#status").addClass("pause");
+          $("#status").text("Final Score : " + score);
+
           score = 0;
         }
       }, 1000);

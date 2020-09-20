@@ -22,3 +22,8 @@
 .rightAnswer {
   color: green;
 }
+
+.pause {
+  background-color: gray;
+  color: yellow;
+}
